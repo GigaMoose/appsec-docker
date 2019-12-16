@@ -1,0 +1,22 @@
+version: '3.6'
+
+services:
+   flaskapp:
+      image: appsec-docker
+      ports:
+         - "8080:8080"
+      secrets:
+         - csrf_secret
+      deploy:
+         replicas: 4
+         resources:
+            limits:
+               cpus: '0.50'
+               memory: 50M
+            reservations:
+               cpus: '0.25'
+               memory: 20M
+
+secrets:
+   csrf_secret:
+      external: true      

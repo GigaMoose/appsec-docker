@@ -22,7 +22,17 @@ import sys
 #basedir = os.path.dirname(os.path.abspath(__file__))
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'X3ZQRvCbYeQx4rAVhKkb'
+
+def get_secret(secret_name):
+    try:
+        with open('/run/secrets/{0}'.format(secret_name), 'r') as secret_file:
+            return secret_file.read()
+    except IOError:
+        return None
+
+csrf_secret = get_secret('csrf_secret')
+
+app.config['SECRET_KEY'] = csrf_secret
 #app.config['SQLALCHEMY_DATABASE_URI'] =\
 #    'sqlite:////' + os.path.join(basedir, 'assignment2db.db')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
