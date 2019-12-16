@@ -1,0 +1,39 @@
+Thanks to... 
+Prof Kevin
+Rahul
+And several members of the cohort for giving advice and direction
+
+Here are several sites I used for reference:
+https://docs.docker.com/engine/security/trust/content_trust/
+https://docs.docker.com/engine/security/trust/deploying_notary/
+https://docs.docker.com/install/linux/docker-ce/ubuntu/
+https://docs.docker.com/install/linux/linux-postinstall/
+
+https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket
+https://runnable.com/docker/python/dockerize-your-flask-application
+https://pythonspeed.com/articles/activate-virtualenv-dockerfile/
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xix-deployment-on-docker-containers
+https://dev.to/riverfount/dockerize-a-flask-app-17ag
+https://docs.docker.com/compose/gettingstarted/
+https://docs.docker.com/compose/compose-file/
+https://docs.docker.com/engine/reference/builder/#environment-replacement
+https://codefresh.io/docker-tutorial/deploy-docker-compose-v3-swarm-mode-cluster/
+https://runnable.com/docker/python/docker-compose-with-flask-apps
+https://realpython.com/dockerizing-flask-with-compose-and-machine-from-localhost-to-the-cloud/
+https://medium.com/bitcraft/docker-composing-a-python-3-flask-app-line-by-line-93b721105777
+https://medium.com/@shamir.stav_83310/dockerizing-a-flask-mysql-app-with-docker-compose-c4f51d20b40d
+
+https://testdriven.io/blog/running-flask-on-docker-swarm/
+https://blog.scottlogic.com/2017/03/01/docker-secrets.html
+https://medium.com/@mccode/dont-embed-configuration-or-secrets-in-docker-images-7b2e0f916fdd
+https://dev.vividbreeze.com/docker-swarm-single-node/
+https://www.linode.com/docs/applications/containers/how-to-use-docker-compose/
+https://www.ctl.io/developers/blog/post/gracefully-stopping-docker-containers/
+https://docs.docker.com/engine/swarm/secrets/#use-secrets-in-compose
+https://docs.docker.com/v17.12/engine/swarm/secrets/#defining-and-using-secrets-in-compose-files
+https://dzone.com/articles/introduction-to-docker-secrets
+https://docs.docker.com/engine/reference/commandline/stack_deploy/
+https://stackoverflow.com/questions/42139605/how-do-you-manage-secret-values-with-docker-compose-v3-1
+https://blog.mikesir87.io/2017/05/using-docker-secrets-during-development/
+https://docs.docker.com/engine/reference/commandline/stack_rm/
+
